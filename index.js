@@ -2,7 +2,7 @@ const express = require('express');
 const https = require('https');
 
 const app = express();
-const LOGIN = "login"; // заменить login
+const LOGIN = "artem_pityov";
 
 app.get('/login', (req, res) => {
     res.type('text/plain').send(LOGIN);
